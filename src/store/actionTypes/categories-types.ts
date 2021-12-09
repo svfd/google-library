@@ -1,0 +1,3 @@
+export enum CategoriesTypes {
+	CATEGORY_VALUE_UPDATED = 'CATEGORY_VALUE_UPDATED'
+};

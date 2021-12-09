@@ -1,0 +1,48 @@
+.book-item {
+	position: relative;
+	max-width: 70%;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 1px solid #f1f1f1;
+	border-radius: 4px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.book-img {
+	display: block;
+	width: 100px;
+	height: 150px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	object-fit: contain;
+}
+.book-title {
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 0.9em;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.book-authors {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 0.8em;
+}
+.book-category {
+	font-size: 0.7em;
+}
+.book-link:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+@media (min-width: 460px) {
+	.book-item {
+		max-width: 100%;
+		margin: 0;
+	}
+}
